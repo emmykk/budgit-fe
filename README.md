@@ -2,9 +2,11 @@ The front end for the accompanying Budgit app, built with React.
 
 Contributors, please note:
 
-Please use *imperative* style, present-tense commits! They should be short and concise, like so:
+- Please use *imperative* style, present-tense commits! They should be short and concise, like so:
 
 `Add comments section to home page`
+
+- Please use `prettier` for formatting.  You can use the default settings in VSCode.
 
 Thank you and happy coding!
 
