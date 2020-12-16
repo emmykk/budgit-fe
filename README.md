@@ -1,3 +1,12 @@
+The front end for the accompanying Budgit app, built with React.
+
+Contributors, please note:
+Please use *imperative* style, present-tense commits! They should be short and concise, like so:
+`Add comments section to home page`
+
+Thank you and happy coding!
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
