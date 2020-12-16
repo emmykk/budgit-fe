@@ -8,10 +8,12 @@ export default class Login extends React.Component {
   };
 
   render() {
+    const loginCardStyle = { width: "100px;" };
+
     if (this.state.page === "login") {
       console.log(this.state.page);
       return (
-        <div>
+        <div className="container" style={loginCardStyle}>
           <p>Welcome! Please log in to get started.</p>
           <div className="input-field">
             <input placeholder="username"></input>
@@ -32,7 +34,7 @@ export default class Login extends React.Component {
       );
     } else {
       return (
-        <div>
+        <div className="container">
           <p>Sign up here!</p>
           <div className="input-field">
             <input placeholder="username"></input>
@@ -40,7 +42,7 @@ export default class Login extends React.Component {
           <div className="input-field">
             <input placeholder="password"></input>
           </div>
-
+          <button class="waves-effect waves-light btn">Sign Up</button>
           <p>
             Or, return to{" "}
             <a href="#" onClick={(e) => this.changePage("login")}>
