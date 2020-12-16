@@ -1,7 +1,9 @@
 The front end for the accompanying Budgit app, built with React.
 
 Contributors, please note:
+
 Please use *imperative* style, present-tense commits! They should be short and concise, like so:
+
 `Add comments section to home page`
 
 Thank you and happy coding!
